@@ -1,10 +1,22 @@
-toyRobot.py: Contains the main logic for the toy robot, including command processing and robot movement functions.
-test_toyRobot.py: Contains test cases for the toy robot functionality using pytest.
-commands.txt: Sample file with commands for the robot to execute.
+# Toy Robot
 
-To run the simulation and provide commands:
+## Files
+
+- **`toyRobot.py`**: Contains the main logic for the toy robot, including command processing and robot movement functions.
+- **`test_toyRobot.py`**: Contains test cases for the toy robot functionality using `pytest`.
+- **`commands.txt`**: Sample file with commands for the robot to execute.
+
+### Running the Main Program
+
+To run the simulation and provide commands, use:
+```sh
 python toyRobot.py
+```
 
-To run the tests using pytest:
+### Running the tests
+```sh
 pytest test_toyRobot.py
+```
+
+
 
